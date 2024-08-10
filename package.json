@@ -1,0 +1,56 @@
+{
+  "name": "@chrisburnell/url-input",
+  "version": "0.0.1",
+  "description": "A Web Component to add a protocol to URL inputs.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisburnell/url-input.git"
+  },
+  "homepage": "https://github.com/chrisburnell/url-input#readme",
+  "bugs": {
+    "url": "https://github.com/chrisburnell/url-input/issues"
+  },
+  "author": {
+    "name": "Chris Burnell",
+    "email": "me@chrisburnell.com",
+    "url": "https://chrisburnell.com/"
+  },
+  "contributors": [
+    {
+      "name": "Chris Burnell",
+      "email": "me@chrisburnell.com",
+      "url": "https://chrisburnell.com"
+    }
+  ],
+  "funding": [
+    {
+      "type": "buymeacoffee",
+      "url": "https://buymeacoffee.com/chrisburnell"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/chrisburnell"
+    }
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "main": "url-input.js",
+  "scripts": {
+    "start": "npx http-server .",
+    "test": "node --test"
+  },
+  "keywords": [
+    "component",
+    "components",
+    "custom elements",
+    "web",
+    "web components"
+  ],
+  "devDependencies": {
+    "linkedom": "^0.18.4"
+  },
+  "type": "module"
+}
