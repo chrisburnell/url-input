@@ -1,5 +1,5 @@
 export default class URLInput extends HTMLElement {
-	static register(tagName) {
+	static define(tagName) {
 		if ("customElements" in window) {
 			customElements.define(tagName || "url-input", URLInput);
 		}
@@ -68,5 +68,6 @@ export default class URLInput extends HTMLElement {
 		}
 	}
 }
-
-URLInput.register();
+if (!new URL(import.meta.url).searchParams.has("nodefine")) {
+	URLInput.define();
+}

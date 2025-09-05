@@ -1,6 +1,6 @@
 {
   "name": "@chrisburnell/url-input",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A Web Component to add a protocol to URL inputs.",
   "license": "MIT",
   "repository": {
@@ -50,7 +50,7 @@
     "web components"
   ],
   "devDependencies": {
-    "linkedom": "^0.18.4"
+    "linkedom": "^0.18.12"
   },
   "type": "module"
 }

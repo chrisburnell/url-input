@@ -4,7 +4,7 @@ A Web Component to add a protocol to URL inputs.
 
 **[Demo](https://chrisburnell.github.io/url-input/demo.html)** | **[Further reading](https://chrisburnell.com/url-input/)**
 
-## Usage
+## Examples
 
 ### General usage example
 
